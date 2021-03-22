@@ -151,6 +151,18 @@ function playm11() {
     musicName.play();
 }
 
+window.addEventListener("keyup", checkKeyPress, false)
+
+function checkKeyPress(key) {
+    if (key.keyCode == "79") {
+        musicName.play();
+    } else if (key.keyCode == "80") {
+        musicName.pause();
+    } else if (key.keyCode == "77") {
+        gotoMenu(); 
+    }
+}
+
 
 // if (randomMusicNum === 0) {
 //     document.getElementById("displayMusicName").innerHTML = "Life of Boris - Generation hardbass";
