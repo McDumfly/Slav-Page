@@ -154,11 +154,11 @@ function playm11() {
 window.addEventListener("keyup", checkKeyPress, false)
 
 function checkKeyPress(key) {
-    if (key.keyCode == "79") {
+    if (key.keyCode == "112") {
         musicName.play();
-    } else if (key.keyCode == "80") {
+    } else if (key.keyCode == "113") {
         musicName.pause();
-    } else if (key.keyCode == "77") {
+    } else if (key.keyCode == "114") {
         gotoMenu(); 
     }
 }
