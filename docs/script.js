@@ -108,72 +108,58 @@ function gotoMenu() {
 
 function playm01() {
     musicName = m01;
+    document.getElementById("musicSearch").value = "Life Of Boris - Generation Hardbass";
     musicName.play();
 }
 function playm02() {
     musicName = m02;
+    document.getElementById("musicSearch").value = "DJ Blyatman - Babushka";
     musicName.play();
 }
 function playm03() {
     musicName = m03;
+    document.getElementById("musicSearch").value = "DJ Blyatman - Gopnik";
     musicName.play();
 }
 function playm04() {
     musicName = m04;
+    document.getElementById("musicSearch").value = "Life Of Boris - No Ruski Pop";
     musicName.play();
 }
 function playm05() {
     musicName = m05;
+    document.getElementById("musicSearch").value = "Life Of Boris - Slav King";
     musicName.play();
 }
 function playm06() {
     musicName = m06;
+    document.getElementById("musicSearch").value = "DJ Blyatman - Vice City";
     musicName.play();
 }
 function playm07() {
     musicName = m07;
+    document.getElementById("musicSearch").value = "DJ Blyatman - Kalashnikov";
     musicName.play();
 }
 function playm08() {
     musicName = m08;
+    document.getElementById("musicSearch").value = "DJ Blyatman - Kamaz";
     musicName.play();
 }
 function playm09() {
     musicName = m09;
+    document.getElementById("musicSearch").value = "Life Of Boris - Lada";
     musicName.play();
 }
 function playm10() {
     musicName = m10;
+    document.getElementById("musicSearch").value = "Life Of Boris - Parking lot";
     musicName.play();
 }
 function playm11() {
     musicName = m11;
+    document.getElementById("musicSearch").value = "Life Of Boris - Red Roubles";
     musicName.play();
 }
 
-window.addEventListener("keyup", checkKeyPress, false)
 
-function checkKeyPress(key) {
-    if (key.keyCode == "50") {
-        musicName.play();
-    } else if (key.keyCode == "49") {
-        musicName.pause();
-    } else if (key.keyCode == "48") {
-        gotoMenu(); 
-    }
-}
-
-
-// if (randomMusicNum === 0) {
-//     document.getElementById("displayMusicName").innerHTML = "Life of Boris - Generation hardbass";
-// } else if (randomMusicNum === 1) {
-//     document.getElementById("displayMusicName").innerHTML = "DJ Blyatman - Babushka";
-// } else if (randomMusicNum === 2) {
-//     document.getElementById("displayMusicName").innerHTML = "DJ Blyatman - Gopnik";
-// } else if (randomMusicNum === 3) {
-//     document.getElementById("displayMusicName").innerHTML = "Life of Boris - No ruski pop";
-// } else if (randomMusicNum === 4) {
-//     document.getElementById("displayMusicName").innerHTML = "Life of Boris - Slav king";
-// }
-
- 
